@@ -1,9 +1,12 @@
 React PIXI Boilerplate
 =====================
 
-This is just [react-transform-boilerplate][rtb] with react-pixi and pixi.js, plus the required webpack config to get assets working and pixi.js loading.
+This is just [react-transform-boilerplate][rtb] with react-pixi and pixi.js, plus the required webpack config to get assets working and pixi.js loading. 
+
+For an example side scrolling game built on this boilerplate and reflux see [react-pixi-play][react-pixi-play].
 
 [rtb]: https://github.com/gaearon/react-transform-boilerplate
+[react-pixi-play]: https://github.com/brigand/react-pixi-play
 
 A *new* Webpack boilerplate with:
 
