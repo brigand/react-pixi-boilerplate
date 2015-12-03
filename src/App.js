@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import pixi from 'pixi.js';
 import {Stage, Sprite, VectorText} from 'react-pixi';
-import Player from './characters/Player.js';
-
-import Game from './Game';
-Game.start();
 
 const SPEED = 0.005;
 export class App extends Component {
@@ -21,8 +17,14 @@ export class App extends Component {
   }
   render() {
     return (
-        <Stage backgroundColor={'#ffffff'}>
-          <Player />
+        <Stage>
+          <Sprite
+            image={require('../assets/cupcake.png')}
+            x={400}
+            y={300}
+            rotation={this.state.rotation}
+            pivot={new pixi.Point(640/2, 577/2)}
+          />
         </Stage>
     );
   }

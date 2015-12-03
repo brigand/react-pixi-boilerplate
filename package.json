@@ -54,12 +54,9 @@
     "webpack-hot-middleware": "^2.0.0"
   },
   "dependencies": {
-    "keycode": "^2.1.0",
     "pixi.js": "^3.0.8",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-pixi": "^0.7.4",
-    "reflux-core": "^0.3.0",
-    "reflux-provides-store": "^0.1.0"
+    "react-pixi": "^0.7.4"
   }
 }
