@@ -25,7 +25,7 @@ Built with **[babel-plugin-react-transform](https://github.com/gaearon/babel-plu
 ![](http://i.imgur.com/AhGY28T.gif)
 
 ```
-git clone https://github.com/gaearon/react-transform-boilerplate.git
+git clone https://github.com/brigand/react-pixi-boilerplate.git
 cd react-transform-boilerplate
 npm install
 npm start
